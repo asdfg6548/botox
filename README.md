@@ -1,52 +1,85 @@
-<div align="center">
-<h2>[2022] 인디 게임 제작 🎮</h2>
-평화로운 분위기 숙에서 채집과 농사, 요리까지 다양한 활동을 즐길 수 있는 게임, SosoVillage입니다!<br> 정해진 틀을 따라가며 개발자가 의도한대로 흘러가는 플레이보다, 플레이어의 자율성에 중점을 두었습니다. 자신이 가고자 하는 방향으로 플레이하며 한적한 마을의 여유를 느낄 수 있습니다. 🍀
-</div>
+<p align="middle" >
+  <img width="200px;" src="https://github.com/user-attachments/assets/127e9c2b-d907-44ac-b2ee-70fc43c3ebf1"/>
+</p>
+<h1 align="middle">Botox</h1>
+<h3 align="middle">게임 매칭, 보이스채팅 사이트</h3>
 
-## 목차
-  - [개요](#개요) 
-  - [게임 설명](#게임-설명)
-  - [게임 플레이 방식](#게임-플레이-방식)
+<br>
 
-## 개요
-- 프로젝트 이름: SosoVillage 🏠
-- 프로젝트 지속기간: 2022.02-2022.06
-- 개발 엔진 및 언어: Unity & C#
-- 멤버: 팀 정현지(이정현, 김민정, 김민지)
+## 📝 프로젝트 소개 
+![프로젝트 소개](https://github.com/user-attachments/assets/8809a73b-c62c-4f84-9d2e-14f53eced911)
 
-## 게임 설명
-|![image](https://user-images.githubusercontent.com/66003567/216818254-18683c3f-af80-4009-b2cc-35bdee865f23.png)|![image](https://user-images.githubusercontent.com/66003567/216818272-8749569b-b217-4572-9738-32b0058459f4.png)|
-|:---:|:---:|
-|시작 화면|사용자 정보 화면|
+이 프로젝트는 보이스 채팅을 지원하지 않는 게임에서 친구들과 실시간으로 소통하고, 함께 게임할 친구를 쉽게 찾을 수 있는 솔루션을 제공합니다. 
+많은 게임에서 보이스 채팅 기능이 없거나, 친구를 찾기 어려운 문제를 해결하기 위해 보이스톡과 채팅 기능을 제공하며, 게임별 방을 생성해 유저들이 손쉽게 친구를 구할 수 있도록 설계되었습니다.
 
-긴장감, 압박감과 같이 일상에서 느낄 수 있는 부정적인 감정에서 벗어나 편안한 분위기 속에서 즐길 수 있는 힐링 게임을 만들고자 소소빌리지(SosoVillage)를 개발하게 되었습니다.<br>
-- 모험과 힐링을 동시에 즐겨라! ⚔️<br>
-소소빌리지에선 모험과 힐링을 동시에 즐길 수 있다는 특징이 있습니다. 기본 홈(Home)맵에서는 작물도 기르고 요리도 할 수 있으며, 숲(Forest)에서는 나무, 두더지 등의 몬스터와 싸우고 낚시를 통해 물고기를 얻을 수도 있습니다. 이 과정을 통해 캐릭터는 생산물을 얻고 성장할 수 있습니다. 
-- 다양한 미니게임을 즐겨라! 🎯<br>
-각 스테이지별로 다양한 종류의 미니게임을 통해 하나의 게임에서 여러 재미를 향유할 수 있습니다. 이 게임의 목적은 플레이어의 지속되는 생활을 위한 물품을 얻는 것에 있습니다. 
-- 자유를 즐겨라! 🏄🏻<br>
-캐릭터는 높은 자율성을 가집니다. 특정 일에 대해 강제성을 부여하지 않고 오직 캐릭터의 활동만으로 게임이 진행됩니다. 예를 들어 낚시에 흥미를 느낀다면, 낚시에 빠져들어 최강의 어부가 될 수 있습니다. 어떠한 제약도 소소빌리지에서는 존재하지 않습니다.
-- 초보자도 누구나! 👶<br>
-높은 자율성이 존재하는 만큼 처음 플레이하게 되었을 때 낯섦을 느낄 수 있습니다. 소소빌리지는 모든 게임 화면에서 설명을 기재하였으며 언제든지 궁금한 경우 열람할 수 있도록 하였습니다. 더불어 모든 상황에 대한 경고를 해주어, 예기치 못한 일을 방지할 수 있습니다.
+이 서비스는 기존의 단순한 친구 매칭이나 채팅 기능을 넘어, 보이스톡과 게임 방을 결합하여 유저들이 더욱 편리하게 친구를 찾고, 게임을 즐길 수 있는 환경을 제공합니다.
 
-## 게임 플레이 방식
-- 캐릭터 이동 방법
+<br/>
 
-|이동방향|상(위)|좌(왼쪽)|하(아래)|우(오른쪽)|
-|---|---|---|---|---|
-|키보드| W | A | S | D |
-|방향키|⬆️|⬅️|⬇️|➡️|
+## ⭐ 주요 기능
 
-- 맵의 이동 가능 장소
+- **회원가입/로그인** : 유저의 회원가입/로그인 기능
 
-|Home|Forest|Store|Room|
-|---|---|---|---|
-|![image](https://user-images.githubusercontent.com/66003567/216816017-bfd18669-9f70-45c2-8561-bae648690602.png)|![image](https://user-images.githubusercontent.com/66003567/216815971-d8ed6ea8-1f92-45f8-9611-1cbe2b5e8db0.png)|![image](https://user-images.githubusercontent.com/66003567/216815991-88e0f4d6-3e5d-4c19-9eb9-97047b40c0d0.png)|![image](https://user-images.githubusercontent.com/66003567/216816002-4eca6510-4436-44f5-b949-347e75129ada.png)|
-|옥수수 농사 가능|슈팅, 두더지 잡기, 낚시 미니게임 입장 가능|물품 판매 및 구매 가능|게임 저장 가능|
+![회원가입/로그인](https://github.com/user-attachments/assets/8004ae50-e581-440d-8a23-3d2199b05974)
 
-- 미니게임
+- **메인페이지** : 메인 페이지, 게임 종류 선택 가능
 
-|베이킹|슈팅|두더지 잡기|낚시|
-|---|---|---|---|
-|![image](https://user-images.githubusercontent.com/66003567/216816081-cf4a29c6-72f3-4b75-b01d-3dd6e3faabc5.png)|![image](https://user-images.githubusercontent.com/66003567/216816088-cd83d20a-e023-4af2-b406-98197af5ff35.png)|![image](https://user-images.githubusercontent.com/66003567/216816106-5a97f26e-565b-43a6-bfab-d22e36745f80.png)|![image](https://user-images.githubusercontent.com/66003567/216816119-fb22c507-f6c4-49a3-b4f0-28ecaae94f6c.png)|
-|오븐 타이머 조절 성공시 빵 획득|나무 몬스터 제거시 코인 획득|일정 수 이상 두더지 잡기 성공시 코인 획득|찌를 올바른 위치에 멈추기 3회 성공시 선택한 난이도의 물고기 획득|
+![메인페이지](https://github.com/user-attachments/assets/92fbf452-9bff-463b-bdbe-87345aa39348)
+
+- **게시판** : 게시판 목록 및 게시판 조회
+
+![게시판](https://github.com/user-attachments/assets/87bb72ee-cefc-4bcf-8ef6-66caea67ee9d)
+
+- **채팅** : 유저들 간의 채팅 기능 구현
+
+![채팅](https://github.com/user-attachments/assets/ff5388d6-c6f9-4c95-a75f-e65eb429f3de)
+
+- **음성 채팅** : 유저들 간의 음성 채팅 기능 구현
+
+![음성채팅](https://github.com/user-attachments/assets/793184ae-599d-4b4f-9fb4-9be5484b5c16)
+
+
+<br/>
+
+## 🔨 프로젝트 구조
+
+**멀티 클라우드 Stand-By DB 구축**
+
+![stand-by DB 구축](https://github.com/user-attachments/assets/a7909c0f-3c4a-4da3-a68d-28fcfff6bce0)
+
+**프론트엔드 배포 구조**
+
+![프론트엔드 아키텍쳐](https://github.com/user-attachments/assets/b6f9f03f-eab7-414d-be8e-e5f7fa180e23)
+
+**백엔드 배포 구조**
+
+![백엔드 아키텍쳐](https://github.com/user-attachments/assets/0fe30985-c66f-464c-96ba-38213de3ad18)
+
+<br/>
+
+## 🔧 Stack
+
+**Frontend(Web)**
+- **Language** : JavaScript
+- **Library & Framework** : React, Styled-Components, Axios
+- **Deploy**: AWS(S3)
+<br />
+
+**Backend**
+- **Language** : Java 
+- **Library & Framework** : Spring Boot, JWT, WebSocket, Socket.io, WebRTC
+- **Database** : MySQL, Redis
+- **ORM** : JPA
+- **Deploy**: AWS(EC2, RDS)
+<br/>
+
+## 🙋‍♂️ Developer
+
+|                                        Backend                                         |                                        Backend                                         |                                     Server/Backend                                     |                                        Frontend                                        |
+| :------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------: |
+| <img src="https://github.com/user-attachments/assets/206f2793-20b5-4fed-a80c-6d33d5460396" width="200" height="250"> | <img src="https://github.com/user-attachments/assets/b61d0958-86ec-461a-ac2f-9ded933728eb" width="200" height="250"> | <img src="https://github.com/user-attachments/assets/a163d910-d222-4a1d-a972-6b2898252a47" width="200" height="250"> | <img src="https://github.com/user-attachments/assets/7613baec-3a06-488c-9128-1375967fdc49" width="200" height="250"> |
+|                         [김원일](https://github.com/wonilkim0517)                     |                        [서영덕](https://github.com/asdfg6548)                          |                       [강건](https://github.com/IWBNN)                               |                     [신은섭](https://github.com/eunseopi)                            |
+                 
+
+## 📝 프로젝트 회고록
+<img width="1720" alt="image" src="https://github.com/user-attachments/assets/3f9c56cd-9ef2-45ef-9777-a2ae26c1b112">
